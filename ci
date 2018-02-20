@@ -1,0 +1,4 @@
+#!/bin/bash
+crystal tool format src --check
+crystal tool format spec --check
+crystal spec

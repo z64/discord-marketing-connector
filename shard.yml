@@ -1,0 +1,27 @@
+name: application
+version: 0.1.0
+
+authors:
+  - Zac Nowicki <zachnowicki@gmail.com>
+
+dependencies:
+  raze:
+    github: samueleaton/raze
+  discordcr:
+    github: z64/discordcr
+  pg:
+    github: will/crystal-pg
+  micrate:
+    github: amberframework/micrate
+  slang:
+    github: jeromegn/slang
+
+targets:
+  web:
+    main: src/web.cr
+  micrate:
+    main: src/micrate.cr
+
+crystal: 0.24.1
+
+license: MIT
